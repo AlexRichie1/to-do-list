@@ -29,7 +29,7 @@ while user_input != '4':
         print('List of to-do items:')
         # Used 'if' condition for a message in case there's nothing in the database
         if len(data) == 0: # Used 'len' function to know if the list is empty
-            print("There is not data")
+            print('There is not data')
         else:
             for item in data:
                 print(item)
